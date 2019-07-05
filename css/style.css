@@ -12,7 +12,7 @@ body{
 }
 
 header{
-	height:100vh; 
+	height:100vh;
 	width: 100%;
 	animation: animate 10s ease-in-out infinite;
 	background-repeat: no-repeat;
@@ -35,7 +35,7 @@ header{
 	100%{
 		background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/ladakhdesert.jpg');
 	}
-	
+
 }
 
 .clearfix:after{
@@ -55,7 +55,7 @@ header{
 h2{
 	float: left;
 	margin-top: 40px;
-    
+
 	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 	word-spacing: 3px;
@@ -98,7 +98,7 @@ h2{
 
 .main-nav li a:hover{
 	border-bottom: 2px solid lightseagreen;
-    
+
 }
 /*.main-nav li a:hover .dropdown-content a{border-bottom: none;}*/
 .dropdown:hover .dropdown-content{
@@ -122,14 +122,14 @@ h2{
 }
 
 .content{
-	flex: 95%; 
+	flex: 95%;
 	max-width: 95%;
 	padding: 0 4px;
 }
 .icon-bar{
 	flex: 5%
 	max-width: 5%;
-	padding-left: 4px; 
+	padding-left: 4px;
 }
 
 .icon-bar a{
@@ -139,6 +139,8 @@ h2{
 	font-size: 20px;
 	padding: 16px;
 }
+
+.icon-bar a:hover{background-color: #000;}
 
 .facebook{background-color: #3B5998;}
 .twitter{background-color: #55ACEE;}
@@ -152,7 +154,7 @@ h1{
 	word-spacing: 5px;
     letter-spacing: 2px;
     margin-bottom: 30px;
-    
+
 }
 
 
@@ -244,7 +246,7 @@ h1{
 		/*margin-left: 50px;*/}
 
 	.main-nav li{
-		
+
 		display: block;
 		margin-top: 10px;
 	}
